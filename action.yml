@@ -6,6 +6,9 @@ inputs:
   authToken:
     description: "Equinix Metal API Auth Token"
     required: true
+  projectID:
+    description: "Equinix Metal Project UUID"
+    required: true    
   runnerName:
     description: "Name of the runner to be deleted"
     required: true
